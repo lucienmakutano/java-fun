@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="321d8152-0d88-4a1d-b89e-b04bba3a38b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/socket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pingpongClient/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pingpong/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pingpong/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2RQJIp2mlIXgGJaVu8OwPvNHhCK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,6 +37,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -46,27 +50,21 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/daniel/IdeaProjects/socket/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ParseHTMLLinks">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.Client" />
+      <option name="MAIN_CLASS_NAME" value="dictionaryClient.Client" />
       <module name="socket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="client.*" />
+          <option name="PATTERN" value="dictionaryClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="socket" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,12 +82,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadSiteContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="online.ReadSiteContent" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="upper.Server" />
       <module name="socket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="online.*" />
+          <option name="PATTERN" value="upper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dictionary.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dictionary.Server" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="upperClient.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="upperClient.Client" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="upperClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,10 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParseHTMLLinks" />
-        <item itemvalue="Application.ReadSiteContent" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.dictionary.Server" />
+        <item itemvalue="Application.upperClient.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.ParseHTMLLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +142,8 @@
       <workItem from="1687176299782" duration="758000" />
       <workItem from="1687178807555" duration="3933000" />
       <workItem from="1687256726648" duration="30000" />
-      <workItem from="1687256831477" duration="7247000" />
+      <workItem from="1687256831477" duration="8047000" />
+      <workItem from="1687334196188" duration="2634000" />
     </task>
     <servers />
   </component>
